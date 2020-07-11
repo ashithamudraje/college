@@ -1,0 +1,61 @@
+{
+ "autoname": "format:{department}-{company}",
+ "creation": "2020-07-03 17:06:17.865385",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "academic_year",
+  "department",
+  "company",
+  "department_placed_student_list"
+ ],
+ "fields": [
+  {
+   "fieldname": "academic_year",
+   "fieldtype": "Link",
+   "label": "Academic Year",
+   "options": "Academic Year"
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Link",
+   "label": "Department",
+   "options": "Department"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company Name",
+   "options": "Recruiting company"
+  },
+  {
+   "fieldname": "department_placed_student_list",
+   "fieldtype": "Table",
+   "label": "Department placed student list",
+   "options": "Student_id"
+  }
+ ],
+ "modified": "2020-07-10 17:32:24.696211",
+ "modified_by": "Administrator",
+ "module": "college",
+ "name": "Department Placement Report",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "ASC",
+ "track_changes": 1
+}

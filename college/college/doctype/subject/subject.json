@@ -115,25 +115,12 @@
    "options": "Faculty"
   }
  ],
- "modified": "2020-05-25 19:01:30.871510",
+ "modified": "2020-07-09 23:02:36.412277",
  "modified_by": "Administrator",
  "module": "college",
  "name": "Subject",
  "owner": "Administrator",
- "permissions": [
-  {
-   "create": 1,
-   "delete": 1,
-   "email": 1,
-   "export": 1,
-   "print": 1,
-   "read": 1,
-   "report": 1,
-   "role": "System Manager",
-   "share": 1,
-   "write": 1
-  }
- ],
+ "permissions": [],
  "quick_entry": 1,
  "sort_field": "modified",
  "sort_order": "ASC",

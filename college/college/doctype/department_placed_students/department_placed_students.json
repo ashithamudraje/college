@@ -1,0 +1,35 @@
+{
+ "creation": "2020-07-09 19:43:06.387149",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "usn",
+  "name1"
+ ],
+ "fields": [
+  {
+   "fieldname": "usn",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "USN"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name"
+  }
+ ],
+ "istable": 1,
+ "modified": "2020-07-09 19:43:06.387149",
+ "modified_by": "Administrator",
+ "module": "college",
+ "name": "Department Placed Students",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "ASC",
+ "track_changes": 1
+}
